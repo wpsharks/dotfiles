@@ -1,0 +1,20 @@
+{
+    "config": {
+        "user": {
+            "name": "jaswsinc",
+            "projectsDir": "~/projects"
+        },
+        "github": {
+            "username": "jaswsinc",
+            "apiKey": "xxxxxxxxxxxxxxxxxxxxxxxxx"
+        },
+        "slack": {
+            "username": "jaswsinc",
+            "apiKey": "xxxxxxxxxxxxxxxxxxxxxxxxx"
+        },
+        "idonethis": {
+            "username": "jaswsinc",
+            "apiKey": "xxxxxxxxxxxxxxxxxxxxxxxxx"
+        }
+    }
+}
