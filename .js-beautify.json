@@ -52,7 +52,7 @@
         "wrap_attributes": "auto",
         "wrap_attributes_indent_size": 1,
         "end_with_newline": true,
-        "unformatted": [],
+        "unformatted": ["tstamp"],
         "extra_liners": []
     }
 }
