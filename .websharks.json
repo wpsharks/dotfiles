@@ -2,19 +2,23 @@
     "config": {
         "user": {
             "name": "jaswsinc",
-            "projectsDir": "~/projects"
+            "projects_dir": "~/projects"
         },
         "github": {
             "username": "jaswsinc",
-            "apiKey": "xxxxxxxxxxxxxxxxxxxxxxxxx"
+            "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
         },
         "slack": {
             "username": "jaswsinc",
-            "apiKey": "xxxxxxxxxxxxxxxxxxxxxxxxx"
+            "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
         },
         "idonethis": {
             "username": "jaswsinc",
-            "apiKey": "xxxxxxxxxxxxxxxxxxxxxxxxx"
+            "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
+        },
+        "websharks": {
+          "username": "jaswsinc",
+          "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
         }
     }
 }
