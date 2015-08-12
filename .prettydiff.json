@@ -1,14 +1,24 @@
 {
-    "css": {
-        "insize": 2,
-        "inchar": " ",
-        "inlevel": 0,
-        "force_indent": false,
-        "vertical": false,
-        "objsort": "none",
-        "preserve": "all",
-        "quoteConvert": "single",
-        "topcoms": false,
-        "diffcoms": true
-    }
+  "css": {
+    "insize": 2,
+    "inchar": " ",
+    "inlevel": 0,
+    "comments": "indent",
+    "force_indent": false,
+
+    "vertical": "all",
+    "objsort": "none",
+
+    "preserve": "all",
+    "cssinsertlines": false,
+
+    "topcoms": false,
+    "diffcoms": true,
+
+    "alignProperties": true,
+    "quoteConvert": "single",
+    "noEmptyLines": false,
+    "tightenAtRules": true
+  }
 }
+

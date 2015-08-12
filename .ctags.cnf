@@ -32,7 +32,6 @@
 --exclude=CHANGELOG.md
 --exclude=LICENSE.txt
 
---exclude=build.xml
 --exclude=composer.json
 --exclude=composer.lock
 
