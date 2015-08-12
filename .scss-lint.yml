@@ -1,10 +1,26 @@
 linters:
-  NestingDepth:
-    max_depth: 6
-  SelectorDepth:
-    max_depth: 6
-  PropertyCount:
-    max_properties: 50
-    include_nested: false
+  Comment:
+    allowed: ^[/*]
   EmptyLineBetweenBlocks:
+    enabled: false
+  IdSelector:
+    enabled: false
+  ImportantRule:
+    enabled: false
+  LeadingZero:
+    enabled: false
+  NestingDepth:
+    enabled: false
+  PropertyCount:
+    enabled: false
+  PropertySortOrder:
+    enabled: false
+  QualifyingElement:
+    allow_element_with_class: true
+    allow_element_with_attribute: true
+  SelectorDepth:
+    enabled: false
+  SpaceAfterPropertyColon:
+    enabled: false
+  SpaceAfterPropertyName:
     enabled: false
