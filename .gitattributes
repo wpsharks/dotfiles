@@ -164,4 +164,5 @@
 /.travis.yml export-ignore
 /.coveralls.yml export-ignore
 /.scrutinizer.yml export-ignore
+/.phings export-ignore
 /build.xml export-ignore
