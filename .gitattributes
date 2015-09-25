@@ -157,7 +157,7 @@
 
 # Archive ignores.
 /assets/ export-ignore
-/phings export-ignore
+/phings/ export-ignore
 /tests/ export-ignore
 /.git* export-ignore
 /.tags export-ignore
