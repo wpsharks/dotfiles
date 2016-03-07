@@ -1,0 +1,36 @@
+addons:
+  apt:
+    packages:
+    - gettext
+    - libpspell-dev
+  hosts:
+    - travis.vm
+
+services:
+  - mysql
+  - memcached
+  - redis-server
+
+language: php
+
+php:
+  - 7.0
+  - hhvm
+
+matrix:
+  allow_failures:
+    - php: hhvm
+  fast_finish: true
+
+cache:
+  directories:
+  - ~/.websharks
+  - ~/.composer/cache
+
+notifications:
+  on_start: never
+  on_success: always
+  on_failure: always
+  email: false
+
+script: ./.travis.bash
