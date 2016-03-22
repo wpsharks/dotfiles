@@ -170,3 +170,5 @@
 
 # LFS storage locations.
 /assets/** filter=lfs diff=lfs merge=lfs -text
+
+# Custom code reinserted here via [custom] marker. Add your <custom></custom> comment markers here please.
