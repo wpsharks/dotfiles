@@ -247,7 +247,7 @@ if [[ -n "${CI_RUN_WP}" ]]; then
 
     # Copy WordPress core files.
 
-    cp --force --recursive ~/ws/.persistent/apps/wp-"${CI_RUN_WP_VERSION}" "${CI_CFG_WP_DIR}" &>/dev/null;
+    cp --force --recursive ~/ws/.persistent/apps/wp-"${CI_RUN_WP_VERSION}"/. "${CI_CFG_WP_DIR}" &>/dev/null;
 
     # Generate a `/wp-config.php` file.
 
