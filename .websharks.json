@@ -1,24 +1,30 @@
 {
-    "config": {
-        "user": {
-            "name": "jaswsinc",
-            "projects_dir": "~/projects"
-        },
-        "github": {
-            "username": "jaswsinc",
-            "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
-        },
-        "slack": {
-            "username": "jaswsinc",
-            "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
-        },
-        "idonethis": {
-            "username": "jaswsinc",
-            "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
-        },
-        "websharks": {
-          "username": "jaswsinc",
-          "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
-        }
+  "cli_tools": {
+    "user": {
+      "name": "jaswsinc",
+      "projects_dir": "~/projects"
+    },
+    "github": {
+      "username": "jaswsinc",
+      "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "slack": {
+      "username": "jaswsinc",
+      "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "idonethis": {
+      "username": "jaswsinc",
+      "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "websharks": {
+      "username": "jaswsinc",
+      "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
     }
+  },
+
+  "phings": {
+    "aws": {
+      "salt": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    }
+  }
 }

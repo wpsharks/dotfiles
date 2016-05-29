@@ -19,7 +19,9 @@ return Symfony\CS\Config\Config::create()
          'phpdoc_order',
          'phpdoc_var_to_type',
 
-         'short_array_syntax',
+         // 'short_array_syntax',
+         // Disabling this to avoid altering PHP <= 5.3 code.
+         // You can enable this temporarily to auto-fix PHP 5.4+ code.
 
          'strict',
          'strict_param',
