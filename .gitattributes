@@ -200,15 +200,15 @@
 
 # Node
 
-node_modules/ export-ignore
+node_modules/** export-ignore
 
 # SASS
 
-.sass-cache/ export-ignore
+.sass-cache/** export-ignore
 
 # IntelliJ
 
-/.idea/ export-ignore
+/.idea/** export-ignore
 
 # Sublime
 
@@ -222,26 +222,26 @@ node_modules/ export-ignore
 
 # VCS
 
-.git/ export-ignore
+.git/** export-ignore
 
-.svn/ export-ignore
-_svn/ export-ignore
+.svn/** export-ignore
+_svn/** export-ignore
 
-CVS/ export-ignore
+CVS/** export-ignore
 .cvsignore export-ignore
 
-.bzr/ export-ignore
+.bzr/** export-ignore
 .bzrignore export-ignore
 
-.hg/ export-ignore
+.hg/** export-ignore
 .hgignore export-ignore
 
-SCCS/ export-ignore
-RCS/ export-ignore
+SCCS/** export-ignore
+RCS/** export-ignore
 
 # PC Files
 
-$RECYCLE.BIN/ export-ignore
+$RECYCLE.BIN/** export-ignore
 Desktop.ini export-ignore
 Thumbs.db export-ignore
 ehthumbs.db export-ignore
@@ -268,11 +268,11 @@ Icons -export-ignore
 
 # AWS
 
-.elasticbeanstalk/ export-ignore
+.elasticbeanstalk/** export-ignore
 
 # Vagrant
 
-.vagrant/ export-ignore
+.vagrant/** export-ignore
 
 # Export Ignore (More) -------------------------------------------------------------------------------------------------
 # These are in addition to what we have in `.gitignore`.
@@ -281,61 +281,103 @@ Icons -export-ignore
 
 *.scss export-ignore
 *.css.map export-ignore
-bourbon/ export-ignore
+
+/src/client-s/bourbon/** export-ignore
+/src/client-s/**/bourbon/** export-ignore
+
+/src/vendor/websharks/*/src/client-s/bourbon/** export-ignore
+/src/vendor/websharks/*/src/client-s/**/bourbon/** export-ignore
 
 # Git
 
 /.gitignore export-ignore
+/src/vendor/*/*/.gitignore export-ignore
+
 /.gitattributes export-ignore
+/src/vendor/*/*/.gitattributes export-ignore
+
 /.gitmodules export-ignore
+/src/vendor/*/*/.gitmodules export-ignore
+
 /.gitchange export-ignore
+/src/vendor/websharks/*/.gitchange export-ignore
 
 # GitHub
 
 /.github/ export-ignore
+/src/vendor/*/*/.github/** export-ignore
+
 /CONTRIBUTING.md export-ignore
+/src/vendor/*/*/CONTRIBUTING.md export-ignore
+
 /ISSUE_TEMPLATE.md export-ignore
+/src/vendor/*/*/ISSUE_TEMPLATE.md export-ignore
+
 /PULL_REQUEST_TEMPLATE.md export-ignore
+/src/vendor/*/*/PULL_REQUEST_TEMPLATE.md export-ignore
 
 # Assets
 
-/assets/ export-ignore
+/assets/** export-ignore
+/src/vendor/websharks/*/assets/** export-ignore
 
 # Build Files
 
-/phings/ export-ignore
+/phings/** export-ignore
+/src/vendor/*/*/phing/** export-ignore
+/src/vendor/*/*/phings/** export-ignore
+
 /.build.props export-ignore
+/src/vendor/*/*/.build.props export-ignore
+
 /build.xml export-ignore
+/src/vendor/*/*/build.xml export-ignore
+
 /build-*.xml export-ignore
+/src/vendor/*/*/build-*.xml export-ignore
+
 .build.php export-ignore
 .build.*.php export-ignore
 
 # Tests
 
-/tests/ export-ignore
+/tests/** export-ignore
+/src/vendor/*/*/test/** export-ignore
+/src/vendor/*/*/tests/** export-ignore
 
 # Drone
 
 /.drone.yml export-ignore
+/src/vendor/*/*/.drone.yml export-ignore
+
 /.drone.sec export-ignore
+/src/vendor/*/*/.drone.sec export-ignore
 
 # Travis
 
 /.travis.yml export-ignore
+/src/vendor/*/*/.travis.yml export-ignore
+
 /.travis.bash export-ignore
+/src/vendor/*/*/.travis.bash export-ignore
 
 # Coverage
 
 /.coveralls.yml export-ignore
+/src/vendor/*/*/.coveralls.yml export-ignore
+
 /.scrutinizer.yml export-ignore
+/src/vendor/*/*/.scrutinizer.yml export-ignore
 
 # Post-Receive
 
 /post-receive export-ignore
+/src/vendor/websharks/*/post-receive export-ignore
 
 # PHAR Stub
 
 /src/includes/phar-stub.php export-ignore
+/src/vendor/websharks/*/src/includes/phar-stub.php export-ignore
 
 # LFS Storage (Assets) -------------------------------------------------------------------------------------------------
 
