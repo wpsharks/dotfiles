@@ -248,13 +248,22 @@ ehthumbs.db export-ignore
 
 # Mac Files
 
-.Spotlight-V100 export-ignore
+.AppleDB export-ignore
 .AppleDouble export-ignore
+.AppleDesktop export-ignore
+.com.apple.timemachine.donotpresent export-ignore
+Network Trash Folder export-ignore
+Temporary Items export-ignore
 .LSOverride export-ignore
+.Spotlight-V100 export-ignore
+.VolumeIcon.icns export-ignore
+.TemporaryItems export-ignore
+.fseventsd export-ignore
 .DS_Store export-ignore
 .Trashes export-ignore
+.apdisk export-ignore
 Icon? export-ignore
-!Icons export-ignore
+Icons -export-ignore
 ._* export-ignore
 
 # AWS
