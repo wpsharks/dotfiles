@@ -2,29 +2,46 @@
   "cli_tools": {
     "user": {
       "name": "jaswsinc",
+      "email": "jaswsinc@xxxxxxx.xxx",
       "projects_dir": "~/projects"
     },
     "github": {
       "username": "jaswsinc",
+      "email": "jaswsinc@xxxxxxx.xxx",
       "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
     },
     "slack": {
       "username": "jaswsinc",
+      "email": "jaswsinc@xxxxxxx.xxx",
       "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
     },
     "idonethis": {
       "username": "jaswsinc",
+      "email": "jaswsinc@xxxxxxx.xxx",
       "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
     },
     "websharks": {
       "username": "jaswsinc",
+      "email": "jaswsinc@xxxxxxx.xxx",
       "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
     }
   },
 
   "phings": {
+    "github": {
+      "username": "jaswsinc",
+      "email": "jaswsinc@xxxxxxx.xxx",
+      "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
+    },
     "aws": {
-      "salt": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      "access_key": "xxxxxxxxxxxxxxxxxxxxxx",
+      "secret_key": "xxxxxxxxxxxxxxxxxxxxxx",
+      "salt": "xxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "slack": {
+      "username": "jaswsinc",
+      "email": "jaswsinc@xxxxxxx.xxx",
+      "api_webhook_url": "https://..."
     }
   }
 }

@@ -1,51 +1,73 @@
 # NOTE: It is not absolutely required (but highly recommended) that you have: `ignorecase = true`
 # in your `.gitconfig` file to maximize compatibility with some of these exclusion patterns.
 
-# Local Dev
+# Local
+
 .~*
 
+# Logs
+
+*.log
+
 # Backups
+
 *~
 *.bak
 
-# Composer
+# Vendor
+
 vendor/
 
 # Node
+
 node_modules/
-npm-debug.log
 
 # SASS
+
 .sass-cache/
 
 # IntelliJ
+
 .idea/
-*.ipr
-*.iws
 
 # Sublime
+
 *.sublime-workspace
 *.sublime-project
 
-# VC Systems
-CVS/
-.cvsignore
+# CTags
+
+*.tags
+*.ctags
+
+# VCS
+
+.git/
+
 .svn/
 _svn/
+
+CVS/
+.cvsignore
+
 .bzr/
 .bzrignore
+
 .hg/
 .hgignore
+
 SCCS/
 RCS/
 
 # PC Files
+
 $RECYCLE.BIN/
 Desktop.ini
 Thumbs.db
 ehthumbs.db
 
 # Mac Files
+
 .Spotlight-V100
 .AppleDouble
 .LSOverride
@@ -55,10 +77,12 @@ Icon?
 !Icons
 ._*
 
-# Amazon Web Services
+# AWS
+
 .elasticbeanstalk/
 
 # Vagrant
+
 .vagrant/
 
 # For shell glob patterns. This includes Git files too. We simply maintain this list together with `.gitignore`.
