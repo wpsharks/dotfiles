@@ -1,6 +1,9 @@
 # NOTE: It is not absolutely required (but highly recommended) that you have: `ignorecase = true`
 # in your `.gitconfig` file to maximize compatibility with some of these exclusion patterns.
 
+# NOTE: `/**` does not exclude the directory itself like in Phing.
+# Use only a trailing `/` to achieve that here.
+
 # Local
 
 .~*

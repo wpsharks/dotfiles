@@ -66,7 +66,6 @@
 *.php6 text
 *.phps text
 *.x-php text
-*.php~ text
 
 # ASP
 
@@ -180,6 +179,9 @@
 # Export Ignore --------------------------------------------------------------------------------------------------------
 # This follows `.gitignore` almost exactly.
 
+# NOTE: `/**` does not exclude the directory itself like in Phing.
+# Use only a trailing `/` to achieve that here.
+
 # Local
 
 .~* export-ignore
@@ -200,15 +202,15 @@
 
 # Node
 
-node_modules/** export-ignore
+node_modules/ export-ignore
 
 # SASS
 
-.sass-cache/** export-ignore
+.sass-cache/ export-ignore
 
 # IntelliJ
 
-/.idea/** export-ignore
+.idea/ export-ignore
 
 # Sublime
 
@@ -222,26 +224,26 @@ node_modules/** export-ignore
 
 # VCS
 
-.git/** export-ignore
+.git/ export-ignore
 
-.svn/** export-ignore
-_svn/** export-ignore
+.svn/ export-ignore
+_svn/ export-ignore
 
-CVS/** export-ignore
+CVS/ export-ignore
 .cvsignore export-ignore
 
-.bzr/** export-ignore
+.bzr/ export-ignore
 .bzrignore export-ignore
 
-.hg/** export-ignore
+.hg/ export-ignore
 .hgignore export-ignore
 
-SCCS/** export-ignore
-RCS/** export-ignore
+SCCS/ export-ignore
+RCS/ export-ignore
 
 # PC Files
 
-$RECYCLE.BIN/** export-ignore
+$RECYCLE.BIN/ export-ignore
 Desktop.ini export-ignore
 Thumbs.db export-ignore
 ehthumbs.db export-ignore
@@ -268,11 +270,11 @@ Icons -export-ignore
 
 # AWS
 
-.elasticbeanstalk/** export-ignore
+.elasticbeanstalk/ export-ignore
 
 # Vagrant
 
-.vagrant/** export-ignore
+.vagrant/ export-ignore
 
 # Export Ignore (More) -------------------------------------------------------------------------------------------------
 # These are in addition to what we have in `.gitignore`.
@@ -282,11 +284,8 @@ Icons -export-ignore
 *.scss export-ignore
 *.css.map export-ignore
 
-/src/client-s/bourbon/** export-ignore
-/src/client-s/**/bourbon/** export-ignore
-
-/src/vendor/websharks/*/src/client-s/bourbon/** export-ignore
-/src/vendor/websharks/*/src/client-s/**/bourbon/** export-ignore
+/src/client-s/**/bourbon/ export-ignore
+/src/vendor/websharks/*/src/client-s/**/bourbon/ export-ignore
 
 # Git
 
@@ -305,7 +304,7 @@ Icons -export-ignore
 # GitHub
 
 /.github/ export-ignore
-/src/vendor/*/*/.github/** export-ignore
+/src/vendor/*/*/.github/ export-ignore
 
 /CONTRIBUTING.md export-ignore
 /src/vendor/*/*/CONTRIBUTING.md export-ignore
@@ -318,14 +317,14 @@ Icons -export-ignore
 
 # Assets
 
-/assets/** export-ignore
-/src/vendor/websharks/*/assets/** export-ignore
+/assets/ export-ignore
+/src/vendor/websharks/*/assets/ export-ignore
 
 # Build Files
 
-/phings/** export-ignore
-/src/vendor/*/*/phing/** export-ignore
-/src/vendor/*/*/phings/** export-ignore
+/phings/ export-ignore
+/src/vendor/*/*/phing/ export-ignore
+/src/vendor/*/*/phings/ export-ignore
 
 /.build.props export-ignore
 /src/vendor/*/*/.build.props export-ignore
@@ -336,14 +335,37 @@ Icons -export-ignore
 /build-*.xml export-ignore
 /src/vendor/*/*/build-*.xml export-ignore
 
-.build.php export-ignore
-.build.*.php export-ignore
+# Dot Build Files
+
+/.build.php export-ignore
+/src/vendor/websharks/*/.build.php export-ignore
+
+/.build.*.php export-ignore
+/src/vendor/websharks/*/.build.*.php export-ignore
+
+/src/.build.php export-ignore
+/src/vendor/websharks/*/src/.build.php export-ignore
+
+/src/.build.*.php export-ignore
+/src/vendor/websharks/*/src/.build.*.php export-ignore
+
+/src/client-s/**/.build.php export-ignore
+/src/vendor/websharks/*/src/client-s/**/.build.php export-ignore
+
+/src/client-s/**/.build.*.php export-ignore
+/src/vendor/websharks/*/src/client-s/**/.build.*.php export-ignore
+
+/src/includes/**/.build.php export-ignore
+/src/vendor/websharks/*/src/includes/**/.build.php export-ignore
+
+/src/includes/**/.build.*.php export-ignore
+/src/vendor/websharks/*/src/includes/**/.build.*.php export-ignore
 
 # Tests
 
-/tests/** export-ignore
-/src/vendor/*/*/test/** export-ignore
-/src/vendor/*/*/tests/** export-ignore
+/tests/ export-ignore
+/src/vendor/*/*/test/ export-ignore
+/src/vendor/*/*/tests/ export-ignore
 
 # Drone
 
@@ -380,6 +402,7 @@ Icons -export-ignore
 /src/vendor/websharks/*/src/includes/phar-stub.php export-ignore
 
 # LFS Storage (Assets) -------------------------------------------------------------------------------------------------
+# NOTE: Here we need to match all assets explictly; i.e., requires `/**`
 
 /assets/** filter=lfs diff=lfs merge=lfs -text
 
