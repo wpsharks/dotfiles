@@ -382,6 +382,9 @@ Icons -export-ignore
 /.coveralls.* export-ignore
 /src/vendor/*/*/.coveralls.* export-ignore
 
+/.scrutinizer.* export-ignore
+/src/vendor/*/*/.scrutinizer.* export-ignore
+
 # Post-Receive
 
 /post-receive export-ignore
