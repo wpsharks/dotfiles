@@ -369,27 +369,18 @@ Icons -export-ignore
 
 # Drone
 
-/.drone.yml export-ignore
-/src/vendor/*/*/.drone.yml export-ignore
-
-/.drone.sec export-ignore
-/src/vendor/*/*/.drone.sec export-ignore
+/.drone.* export-ignore
+/src/vendor/*/*/.drone.* export-ignore
 
 # Travis
 
-/.travis.yml export-ignore
-/src/vendor/*/*/.travis.yml export-ignore
-
-/.travis.bash export-ignore
-/src/vendor/*/*/.travis.bash export-ignore
+/.travis.* export-ignore
+/src/vendor/*/*/.travis.* export-ignore
 
 # Coverage
 
-/.coveralls.yml export-ignore
-/src/vendor/*/*/.coveralls.yml export-ignore
-
-/.scrutinizer.yml export-ignore
-/src/vendor/*/*/.scrutinizer.yml export-ignore
+/.coveralls.* export-ignore
+/src/vendor/*/*/.coveralls.* export-ignore
 
 # Post-Receive
 
