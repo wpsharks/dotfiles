@@ -284,9 +284,20 @@ Icons -export-ignore
 
 _ide.php export-ignore
 
+# CHANGELOG Files
+
+CHANGELOG.md export-ignore
+CHANGELOG.mdown﻿⁠⁠⁠⁠ export-ignore
+
+# README Files
+
+README.md export-ignore
+README.mdown export-ignore
+
 # TODO Lists
 
 TODO.md export-ignore
+TODO.mdown export-ignore
 
 # SASS
 
@@ -328,6 +339,11 @@ TODO.md export-ignore
 
 /assets/ export-ignore
 /src/vendor/websharks/*/assets/ export-ignore
+
+# Makefiles
+
+/Makefile export-ignore
+/src/vendor/*/*/Makefile export-ignore
 
 # Build Files
 
@@ -376,15 +392,34 @@ TODO.md export-ignore
 /src/vendor/*/*/test/ export-ignore
 /src/vendor/*/*/tests/ export-ignore
 
+# PHPUnit
+
+/phpunit.xml export-ignore
+/src/vendor/*/*/phpunit.xml export-ignore
+
+/phpunit.xml.* export-ignore
+/src/vendor/*/*/phpunit.xml.* export-ignore
+
 # Drone
 
 /.drone.* export-ignore
 /src/vendor/*/*/.drone.* export-ignore
 
+# Circle CI
+
+/circle.yml export-ignore
+/src/vendor/*/*/circle.yml export-ignore
+
+/.circle.yml export-ignore
+/src/vendor/*/*/.circle.yml export-ignore
+
 # Travis
 
 /.travis.* export-ignore
 /src/vendor/*/*/.travis.* export-ignore
+
+/.travis-* export-ignore
+/src/vendor/*/*/.travis-* export-ignore
 
 # Coverage
 
@@ -393,6 +428,11 @@ TODO.md export-ignore
 
 /.scrutinizer.* export-ignore
 /src/vendor/*/*/.scrutinizer.* export-ignore
+
+# PHP Code Sniffer
+
+/.php_cs export-ignore
+/src/vendor/*/*/.php_cs export-ignore
 
 # Post-Receive
 

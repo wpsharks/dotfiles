@@ -1,3 +1,9 @@
+## [coming soon]
+
+- Renaming `.websharks.json` to the suggested `.ws.json` name.
+- Updating `.php_cs` for compatibility with PHP CS Fixer v2+ (now a requirement).
+- Updating export ignores. Bring up-to-date with websharks/phings.
+
 ## v160625
 
 - Improving readability in `.gitignore`.
