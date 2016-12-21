@@ -340,6 +340,14 @@ TODO.mdown export-ignore
 /assets/ export-ignore
 /src/vendor/websharks/*/assets/ export-ignore
 
+# Composer Files.
+
+/composer.json export-ignore
+/src/vendor/*/*/composer.json export-ignore
+
+/composer.lock export-ignore
+/src/vendor/*/*/composer.lock export-ignore
+
 # Makefiles
 
 /Makefile export-ignore
