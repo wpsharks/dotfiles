@@ -299,6 +299,10 @@ README.mdown export-ignore
 TODO.md export-ignore
 TODO.mdown export-ignore
 
+# Dists
+
+*.dist export-ignore
+
 # SASS
 
 *.scss export-ignore
@@ -405,8 +409,13 @@ TODO.mdown export-ignore
 /phpunit.xml export-ignore
 /src/vendor/*/*/phpunit.xml export-ignore
 
-/phpunit.xml.* export-ignore
-/src/vendor/*/*/phpunit.xml.* export-ignore
+# Box / Phar
+
+/box.json export-ignore
+/src/vendor/*/*/box.json export-ignore
+
+/.box.json export-ignore
+/src/vendor/*/*/.box.json export-ignore
 
 # Drone
 
