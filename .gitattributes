@@ -398,8 +398,16 @@ TODO.mdown export-ignore
 /src/includes/**/.build.*.php export-ignore
 /src/vendor/websharks/*/src/includes/**/.build.*.php export-ignore
 
+# Demos
+
+/demo/ export-ignore
+/demos/ export-ignore
+/src/vendor/*/*/demo/ export-ignore
+/src/vendor/*/*/demos/ export-ignore
+
 # Tests
 
+/test/ export-ignore
 /tests/ export-ignore
 /src/vendor/*/*/test/ export-ignore
 /src/vendor/*/*/tests/ export-ignore
