@@ -355,10 +355,21 @@ CHANGELOG.txt﻿⁠⁠⁠⁠ export-ignore
 /PULL_REQUEST_TEMPLATE.md export-ignore
 /src/vendor/*/*/PULL_REQUEST_TEMPLATE.md export-ignore
 
-# Jekyll Files
+# GitHub + Jekyll Dirs/Files
+# Note: `docs/` and `assets/` are also used by Jekyll.
+# They aren't listed here because they are listed elsewhere.
 
 /_config.yml export-ignore
 /src/vendor/*/*/_config.yml export-ignore
+
+/_layouts/ export-ignore
+/src/vendor/*/*/_layouts/ export-ignore
+
+/_includes/ export-ignore
+/src/vendor/*/*/_includes/ export-ignore
+
+/_sass/ export-ignore
+/src/vendor/*/*/_sass/ export-ignore
 
 # Makefiles
 
