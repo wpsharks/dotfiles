@@ -292,6 +292,13 @@ Icons -export-ignore
 /src/vendor/*/*/demo/ export-ignore
 /src/vendor/*/*/demos/ export-ignore
 
+# Doc Directories
+
+/doc/ export-ignore
+/docs/ export-ignore
+/src/vendor/*/*/doc/ export-ignore
+/src/vendor/*/*/docs/ export-ignore
+
 # Test Directories
 
 /test/ export-ignore
