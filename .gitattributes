@@ -348,6 +348,11 @@ CHANGELOG.txt﻿⁠⁠⁠⁠ export-ignore
 /PULL_REQUEST_TEMPLATE.md export-ignore
 /src/vendor/*/*/PULL_REQUEST_TEMPLATE.md export-ignore
 
+# Jekyll Files
+
+/_config.yml export-ignore
+/src/vendor/*/*/_config.yml export-ignore
+
 # Makefiles
 
 /Makefile export-ignore
