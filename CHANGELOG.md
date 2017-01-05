@@ -1,4 +1,4 @@
-## [coming soon]
+## v170105
 
 - Renaming `.websharks.json` to the suggested `.ws.json` name.
 - Updating `.php_cs` for compatibility with PHP CS Fixer v2+ (now a requirement).
