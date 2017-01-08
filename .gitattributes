@@ -382,6 +382,11 @@ CHANGELOG.txt﻿⁠⁠⁠⁠ export-ignore
 /gulpfile.js export-ignore
 /src/vendor/*/*/gulpfile.js export-ignore
 
+# TypeScript Files
+
+/tsconfig.json export-ignore
+/src/vendor/*/*/tsconfig.json export-ignore
+
 # Grunt Files
 
 /Gruntfile export-ignore
