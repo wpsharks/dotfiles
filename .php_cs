@@ -12,6 +12,9 @@ return PhpCsFixer\Config::create()
         'phpdoc_annotation_without_dot'      => false,
         'hash_to_slash_comment'              => false,
         'no_empty_comment'                   => false,
+        'braces'                             => [
+            'allow_single_line_closure' => true,
+        ],
 
         // Other/misc rules.
 
@@ -26,7 +29,8 @@ return PhpCsFixer\Config::create()
         'phpdoc_add_missing_param_annotation' => true,
         'phpdoc_no_alias_tag'                 => ['var' => 'type'],
 
+        // 'psr4' => true, // Class names.
+        // 'declare_strict_types' => true,
         // 'array_syntax' => ['syntax' => 'short'],
-        // Disabling this to avoid altering PHP <= 5.3 code.
-        // You can enable this temporarily to auto-fix PHP 5.4+ code.
+        // Disabling these to avoid altering older PHP code.
      ]);

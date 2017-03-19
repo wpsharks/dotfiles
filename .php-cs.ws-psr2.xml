@@ -8,14 +8,16 @@
 
   <rule ref="PSR2">
     <exclude name="Generic.Files.LineLength" />
-    <exclude name="Generic.Formatting.DisallowMultipleStatements.SameLine" />
-
     <exclude name="PSR2.Files.ClosingTag.NotAllowed" />
-    <exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineCASE" />
-    <exclude name="PSR2.ControlStructures.SwitchDeclaration.SpaceBeforeColonCASE" />
-    <exclude name="PSR2.ControlStructures.SwitchDeclaration.SpaceBeforeColonDEFAULT" />
+    <exclude name="Generic.Formatting.DisallowMultipleStatements.SameLine" />
+    <exclude name="Generic.ControlStructures.InlineControlStructure.NotAllowed" />
 
-    <exclude name="Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace" />
+    <!-- <exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineCASE" /> -->
+    <!-- <exclude name="PSR2.ControlStructures.SwitchDeclaration.SpaceBeforeColonCASE" /> -->
+    <!-- <exclude name="PSR2.ControlStructures.SwitchDeclaration.SpaceBeforeColonDEFAULT" /> -->
+
+    <!-- <exclude name="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore" /> -->
+    <!-- <exclude name="Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace" /> -->
   </rule>
 
   <rule ref="Generic.PHP.ForbiddenFunctions">
