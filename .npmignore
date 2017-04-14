@@ -100,5 +100,8 @@ Icon?
 *.ts
 !*.d.ts
 dist/
+assets/
+demos/
+tests/
 
 # Custom code reinserted here via [custom] marker. Add your <custom></custom> comment markers here please.
