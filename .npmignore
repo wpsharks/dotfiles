@@ -202,5 +202,5 @@ tsconfig.json
 # ----------------------------------------------------------------------------------------------------------------------
 
 # <custom>
-#   Put your rules in <custom> comment markers.
+#   Put your rules in custom comment markers.
 # </custom>
