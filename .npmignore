@@ -1,3 +1,5 @@
+# This follows `.gitignore` exactly. -----------------------------------------------------------------------------------
+
 # Local
 
 .~*
@@ -11,21 +13,13 @@
 *~
 *.bak
 
-# Vendor
+# Vagrant
 
-vendor/
+.vagrant/
 
 # TypeScript
 
 typings/
-
-# Node
-
-node_modules/
-
-# SASS
-
-.sass-cache/
 
 # IntelliJ
 
@@ -33,13 +27,29 @@ node_modules/
 
 # Sublime
 
-*.sublime-workspace
 *.sublime-project
+*.sublime-workspace
 
-# CTags
+# Vendor
 
-*.tags
+vendor/
+
+# NodeJS
+
+node_modules/
+
+# SASS
+
+.sass-cache/
+
+# Elastic Beanstalk
+
+.elasticbeanstalk/
+
+# CTAGs
+
 *.ctags
+*.tags
 
 # VCS
 
@@ -87,21 +97,110 @@ Icon?
 !Icons
 ._*
 
-# AWS
+# These are in addition to what we have in `.gitignore`. ---------------------------------------------------------------
 
-.elasticbeanstalk/
+# Assets
 
-# Vagrant
+/assets/
 
-.vagrant/
+# Demos
 
-# NPM-specific exclusions.
+/demo/
+/demos/
+
+# Dists
+
+/dist/
+/dists/
+
+# Docs
+
+/doc/
+/docs/
+
+# Tests
+
+/test/
+/tests/
+
+# READMEs.
+
+/TODO.md
+/README.md
+/CHANGELOG.md
+
+# Git Dotfiles
+
+/.gitignore
+/.gitattributes
+/.gitmodules
+/.gitchange
+
+# GitHub Misc.
+
+/.github/
+/CONTRIBUTING.md
+/ISSUE_TEMPLATE.md
+/PULL_REQUEST_TEMPLATE.md
+
+# GitHub + Jekyll Dirs/Files
+# Note: `docs/` and `assets/` are also used by Jekyll.
+# They aren't listed here because they are listed elsewhere.
+
+/_config.yml
+/_layouts/
+/_includes/
+/_sass/
+
+# NPM Dotfiles
+
+/.npmrc
+/.npmignore
+
+# Gulp Files
+
+/gulpfile.js
+
+# Grunt Files
+
+/Gruntfile
+
+# TypeScript
 
 *.ts
-!*.d.ts
-dist/
-assets/
-demos/
-tests/
+typings.json
+tsconfig.json
 
-# Custom code reinserted here via [custom] marker. Add your <custom></custom> comment markers here please.
+# Maps
+
+*.js.map
+*.css.map
+
+# Drone
+
+/.drone.*
+
+# Circle CI
+
+/circle.yml
+/.circle.yml
+
+# Travis
+
+/.travis.*
+/.travis-*
+
+# Coverage
+
+/.coveralls.*
+/.scrutinizer.*
+
+# Composer
+
+/composer.json
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# <custom>
+#   Put your rules in <custom> comment markers.
+# </custom>
