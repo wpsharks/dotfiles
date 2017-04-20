@@ -186,6 +186,7 @@
 *.dll binary
 *.exe binary
 *.sh text
+*.pem text
 *.so binary
 
 # Export Ignore — this follows `.gitignore` almost exactly. ------------------------------------------------------------
