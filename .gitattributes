@@ -195,6 +195,7 @@
 # Local
 
 .~* export-ignore
+._* export-ignore
 
 # Logs
 

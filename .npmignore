@@ -3,6 +3,7 @@
 # Local
 
 .~*
+._*
 
 # Logs
 
@@ -108,11 +109,6 @@ Icon?
 /demo/
 /demos/
 
-# Dists
-
-/dist/
-/dists/
-
 # Docs
 
 /doc/
@@ -122,12 +118,6 @@ Icon?
 
 /test/
 /tests/
-
-# READMEs.
-
-/TODO.md
-/README.md
-/CHANGELOG.md
 
 # Git Dotfiles
 
@@ -157,6 +147,14 @@ Icon?
 /.npmrc
 /.npmignore
 
+# TypeScript
+
+*.ts
+!*.d.ts
+tsfmt.json
+typings.json
+tsconfig.json
+
 # Gulp Files
 
 /gulpfile.js
@@ -164,12 +162,6 @@ Icon?
 # Grunt Files
 
 /Gruntfile
-
-# TypeScript
-
-*.ts
-typings.json
-tsconfig.json
 
 # Maps
 
