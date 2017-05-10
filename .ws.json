@@ -27,6 +27,24 @@
     }
   },
 
+  "gulp": {
+    "github": {
+      "username": "jaswsinc",
+      "email": "jaswsinc@xxxxxxx.xxx",
+      "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "aws": {
+      "access_key": "xxxxxxxxxxxxxxxxxxxxxx",
+      "secret_key": "xxxxxxxxxxxxxxxxxxxxxx",
+      "salt": "xxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "slack": {
+      "username": "jaswsinc",
+      "email": "jaswsinc@xxxxxxx.xxx",
+      "api_webhook_url": "https://..."
+    }
+  },
+
   "phings": {
     "github": {
       "username": "jaswsinc",

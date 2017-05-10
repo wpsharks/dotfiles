@@ -39,6 +39,10 @@ vendor/
 
 node_modules/
 
+# Bower
+
+bower_components/
+
 # SASS
 
 .sass-cache/
@@ -142,10 +146,14 @@ Icon?
 /_includes/
 /_sass/
 
-# NPM Dotfiles
+# NPM
 
 /.npmrc
 /.npmignore
+
+# Bower
+
+/.bowerrc
 
 # TypeScript
 
