@@ -31,17 +31,17 @@
     "github": {
       "username": "jaswsinc",
       "email": "jaswsinc@xxxxxxx.xxx",
-      "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
+      "apiKey": "xxxxxxxxxxxxxxxxxxxxxx"
     },
     "aws": {
-      "access_key": "xxxxxxxxxxxxxxxxxxxxxx",
-      "secret_key": "xxxxxxxxxxxxxxxxxxxxxx",
+      "accessKey": "xxxxxxxxxxxxxxxxxxxxxx",
+      "secretKey": "xxxxxxxxxxxxxxxxxxxxxx",
       "salt": "xxxxxxxxxxxxxxxxxxxxxx"
     },
     "slack": {
       "username": "jaswsinc",
       "email": "jaswsinc@xxxxxxx.xxx",
-      "api_webhook_url": "https://..."
+      "apiWebhookUrl": "https://..."
     }
   },
 
