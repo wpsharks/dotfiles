@@ -155,6 +155,10 @@ Icon?
 /.npmrc
 /.npmignore
 
+# Babel
+
+/.babelrc
+
 # Bower
 
 /.bowerrc

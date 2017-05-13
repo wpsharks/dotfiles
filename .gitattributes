@@ -64,6 +64,8 @@
 *.json text
 *.json5 text
 *.js.map text
+*.babelrc text
+*.npmrc text
 
 # Applescript
 
