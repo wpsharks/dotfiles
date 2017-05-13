@@ -39,6 +39,10 @@ vendor/
 
 node_modules/
 
+# JSPM
+
+jspm_packages/
+
 # Bower
 
 bower_components/
@@ -158,6 +162,7 @@ Icon?
 # TypeScript
 
 *.ts
+*.tsx
 !*.d.ts
 tsfmt.json
 typings.json

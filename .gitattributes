@@ -193,7 +193,7 @@
 *.so binary
 
 # Export Ignore — this follows `.gitignore` almost exactly. ------------------------------------------------------------
-# The only exceptions are that we don't ignore `node_modules/`, `bower_components/` or `vendor/`.
+# Exceptions: don't ignore `node_modules/`, `jspm_packages/`, `bower_components/` or `vendor/`.
 
 # Local
 
