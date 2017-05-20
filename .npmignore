@@ -168,9 +168,10 @@ Icon?
 *.ts
 *.tsx
 !*.d.ts
-tsfmt.json
-typings.json
-tsconfig.json
+/types/
+/tsfmt.json
+/typings.json
+/tsconfig.json
 
 # Gulp Files
 
@@ -179,11 +180,6 @@ tsconfig.json
 # Grunt Files
 
 /Gruntfile
-
-# Maps
-
-*.js.map
-*.css.map
 
 # Drone
 
