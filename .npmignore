@@ -150,6 +150,14 @@ Icon?
 /_includes/
 /_sass/
 
+# Templates
+
+/readme.tpl.md
+/readme.cnt.md
+
+/license.tpl.txt
+/license.cnt.txt
+
 # NPM
 
 /.npmrc
