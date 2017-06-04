@@ -152,11 +152,13 @@ Icon?
 
 # Templates
 
-/readme.tpl.md
-/readme.cnt.md
+/rdm.about.md
+/rdm.body.md
+/rdm.tpl.md
 
-/license.tpl.txt
-/license.cnt.txt
+/lic.about.txt
+/lic.body.txt
+/lic.tpl.txt
 
 # NPM
 

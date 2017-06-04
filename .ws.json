@@ -42,6 +42,9 @@
       "username": "jaswsinc",
       "email": "jaswsinc@xxxxxxx.xxx",
       "apiWebhookUrl": "https://..."
+    },
+    "travis": {
+      "apiKey": "xxxxxxxxxxxxxxxxxxxxxx"
     }
   },
 
@@ -60,6 +63,9 @@
       "username": "jaswsinc",
       "email": "jaswsinc@xxxxxxx.xxx",
       "api_webhook_url": "https://..."
+    },
+    "travis": {
+      "api_key": "xxxxxxxxxxxxxxxxxxxxxx"
     }
   }
 }
