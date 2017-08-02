@@ -35,6 +35,8 @@
 
 *.tmpl text
 *.tpl text
+*.liquid text
+*.liq text
 
 # Config
 

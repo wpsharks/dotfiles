@@ -1,9 +1,17 @@
 linters:
+  ColorVariable:
+    enabled: false
   Comment:
     allowed: ^[/*]
+  DeclarationOrder:
+    enabled: false
   EmptyLineBetweenBlocks:
     enabled: false
+  ElsePlacement:
+    enabled: false
   IdSelector:
+    enabled: false
+  ImportPath:
     enabled: false
   ImportantRule:
     enabled: false
@@ -20,7 +28,13 @@ linters:
     allow_element_with_attribute: true
   SelectorDepth:
     enabled: false
+  SelectorFormat:
+    enabled: false
   SpaceAfterPropertyColon:
     enabled: false
   SpaceAfterPropertyName:
+    enabled: false
+  UrlFormat:
+    enabled: false
+  VendorPrefix:
     enabled: false

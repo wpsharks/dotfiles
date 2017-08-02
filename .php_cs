@@ -6,7 +6,7 @@ return PhpCsFixer\Config::create()
         '@Symfony'                           => true,
         'no_unused_imports'                  => false,
         'standardize_not_equals'             => false,
-        'blank_line_before_return'           => false,
+        'blank_line_before_statement'        => false,
         'blank_line_after_opening_tag'       => false,
         'single_blank_line_before_namespace' => false,
         'phpdoc_annotation_without_dot'      => false,
