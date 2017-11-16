@@ -9,9 +9,11 @@ return PhpCsFixer\Config::create()
         'blank_line_before_statement'        => false,
         'blank_line_after_opening_tag'       => false,
         'single_blank_line_before_namespace' => false,
+        'no_extra_consecutive_blank_lines'   => false,
         'phpdoc_annotation_without_dot'      => false,
         'hash_to_slash_comment'              => false,
         'no_empty_comment'                   => false,
+        'yoda_style'                         => false,
         'braces'                             => [
             'allow_single_line_closure' => true,
         ],
