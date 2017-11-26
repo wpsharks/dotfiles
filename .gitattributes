@@ -15,8 +15,8 @@
 
 # YAML
 
-*.yml
-*.yaml
+*.yml text
+*.yaml text
 
 # Properties.
 
