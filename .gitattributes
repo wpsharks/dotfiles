@@ -15,8 +15,8 @@
 
 # YAML
 
-*.yml text
 *.yaml text
+*.yml text
 
 # Properties.
 
@@ -33,10 +33,10 @@
 
 # Templates
 
+*.liq text
+*.liquid text
 *.tmpl text
 *.tpl text
-*.liquid text
-*.liq text
 
 # Config
 
@@ -52,22 +52,22 @@
 # CSS
 
 *.css text
+*.css.map text
+*.less text
 *.sass text
 *.scss text
-*.less text
-*.css.map text
 
 # JavaScript
 
+*.babelrc text
 *.js text
-*.ts text
-*.jsx text
-*.tsx text
+*.js.map text
 *.json text
 *.json5 text
-*.js.map text
-*.babelrc text
+*.jsx text
 *.npmrc text
+*.ts text
+*.tsx text
 
 # Applescript
 
@@ -104,20 +104,22 @@
 *.shtml text
 *.xhtml text
 *.xml text
+*.xsd text
 *.xsl text
 *.xslt text
-*.xsd text
 
 # Documents
 
 *.csv text
-*.tsv text
 *.doc binary
 *.docx binary
 *.odt binary
 *.pdf binary
+*.pptx binary
 *.rtf binary
+*.tsv text
 *.xls binary
+*.xlsx binary
 
 # Images
 
@@ -130,37 +132,37 @@
 *.jpeg binary
 *.jpg binary
 *.png binary
-*.webp binary
 *.psd binary
+*.pspimage binary
 *.svg text
 *.tif binary
 *.tiff binary
-*.pspimage binary
+*.webp binary
 
 # Audio
 
 *.mid binary
 *.midi binary
 *.mp3 binary
+*.ogg binary
 *.wav binary
 *.wma binary
 
 # Video
 
 *.avi binary
+*.blend binary
+*.fla binary
 *.flv binary
-*.ogg binary
-*.ogv binary
-*.mp4 binary
 *.mov binary
-*.mpg binary
+*.mp4 binary
 *.mpeg binary
+*.mpg binary
+*.ogv binary
 *.qt binary
+*.swf binary
 *.webm binary
 *.wmv binary
-*.fla binary
-*.swf binary
-*.blend binary
 
 # Fonts
 
@@ -185,24 +187,26 @@
 
 # Other
 
-*.bat text
 *.bash text
+*.bat text
 *.bin binary
 *.class binary
 *.com binary
 *.dll binary
 *.exe binary
-*.sh text
 *.pem text
+*.sh text
 *.so binary
+*.zsh text
 
 # Export Ignore — this follows `.gitignore` almost exactly. ------------------------------------------------------------
 # Exceptions: don't ignore `node_modules/`, `jspm_packages/`, `bower_components/` or `vendor/`.
 
 # Local
 
-.~* export-ignore
+.#* export-ignore
 ._* export-ignore
+.~* export-ignore
 
 # Logs
 
@@ -210,8 +214,8 @@
 
 # Backups
 
-*~ export-ignore
 *.bak export-ignore
+*~ export-ignore
 
 # Vagrant
 
