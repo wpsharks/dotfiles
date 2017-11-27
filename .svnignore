@@ -2,6 +2,7 @@
 
 # Local
 
+#*
 .#*
 ._*
 .~*
@@ -15,6 +16,13 @@
 *~
 .*~
 *.bak
+
+# Patches
+
+*.rej
+*.orig
+*.patch
+*.diff
 
 # Vagrant
 
